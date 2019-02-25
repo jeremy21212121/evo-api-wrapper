@@ -1,0 +1,20 @@
+{
+  "name": "evo-api-wrapper",
+  "version": "0.0.1",
+  "description": "wraps calls to evo api with CORS header for use in web apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jeremy poole",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "puppeteer": "^1.10.0",
+    "request": "^2.88.0"
+  }
+}
